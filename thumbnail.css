@@ -1,0 +1,99 @@
+/* navbar */
+a .add-listing-btn{
+    background-color:#FFC947 ;
+    color: white;
+}
+.navbar-collapse{
+    
+    flex-grow: 0!important;
+}
+.language{
+    height: 30px;
+    margin: 12px;
+}
+
+#div-1{
+    /* background-color: aqua; */
+    background: url('mask group.png');
+    height: 580px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+#div-2{
+     background: #FFFFFF;
+    height: 300px;
+    width: 80%;
+    position: relative;
+    z-index: 100;
+    bottom: 121px;
+    margin: auto;
+    box-shadow: 0px 18px 43px rgba(0, 0, 0, 0.1), 0px 5.42647px 12.9632px rgba(0, 0, 0, 0.0651589), 0px 2.25388px 5.38427px rgba(0, 0, 0, 0.05), 0px 0.815184px 1.94738px rgba(0, 0, 0, 0.0348411);
+border-radius: 10px;
+transition: 0.3s;
+}
+.font-color{
+    color: #185ADB;
+    font-weight: 700;
+    padding-top: 62px;
+}
+.second-font{
+    font-size: 24px;
+}
+@media only screen and (max-width:576px){
+    .second-font{
+        font-size: 18px;
+    }
+    .categories-1{
+        margin-top: 6px !important;
+        padding-top: 0px!important;
+        margin-bottom: 3px!important;
+        height: auto!important;
+    }
+    .location-1{
+        margin-top: 6px !important;
+        padding-top: 0px!important;
+        margin-bottom: 3px!important;
+        height: auto!important;
+    }
+    .logn-box{
+        margin-top: 6px !important;
+        padding-top: 0px!important;
+        margin-bottom: 3px!important;
+        height: auto!important;
+    }
+    .search-1{
+        margin-top: 6px !important;
+        padding-top: 0px!important;
+        margin-bottom: 3px!important;
+        height: auto!important;
+    }
+}
+.categories-1{
+    border: 1px solid black;
+    margin-bottom: 8px;
+    height: 100%;
+    margin-top: 8px;
+    padding-top: 12px;
+}
+.location-1{
+  border: 1px solid black;
+    margin-bottom: 8px;
+    height: 100%;
+    margin-top: 8px;
+    padding-top: 12px;
+}
+.logn-box{
+   border: 1px solid black;
+    margin-bottom: 8px;
+    height: 100%;
+    margin-top: 8px;
+    padding-top: 12px;
+}
+.search-1{
+   border: 1px solid black;
+    margin-bottom: 8px;
+    height: 100%;
+    margin-top: 8px;
+    padding-top: 12px;
+}
